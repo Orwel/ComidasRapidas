@@ -1,0 +1,162 @@
+
+
+
+* {
+    margin: 0px;
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    height: 100px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+
+.titulo {
+    flex-grow: 0.60;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+
+.span-verde {
+    color: #39B24A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.span-blanco {
+    color: white;
+}
+ 
+.span-rojo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FC200C;
+}
+
+.logo-header {
+    width: 92px;
+    height: 80px;
+}
+
+
+.nav-header {
+    flex-grow: 0.30;
+    display: flex;
+    width: 284px;
+    height: 19px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/img/delivery.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    width: 490px;
+    height: 350px;
+}
+
+.texto-section1 {
+    color: red;
+    margin-top: 15px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background-position: 60% 20%;
+    background-repeat: no-repeat;
+    width: 491px;
+    height: 350px;
+    line-height: 25px;
+    border-radius: 5px;
+}
+
+.span-comprando {
+    color: white;
+
+}
+.span-section2 {
+    position: relative;
+    top: 15px;
+    color: #FC200C;
+}
+
+.titulo-pizzas {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.lista-pizzas {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.pizza-navideña {
+    align-self: flex-end;
+    position: relative;
+    bottom: 150px;
+    right: 40px;
+}
+
+footer {
+    position: absolute;
+    width: 100vw;
+    height: 150px;
+    bottom: 0px;
+    background-size: cover;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-footer {
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    
+}
+
+.nav-footer {
+    position: absolute;
+    top: 10px;
+    line-height: 33px;
+}
+
